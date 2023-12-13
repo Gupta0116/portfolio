@@ -1,0 +1,82 @@
+header {
+  background: aqua;
+  color: black;
+  text-align: end; 
+}
+
+body {
+  background-color: rgb(62, 149, 156);
+}
+
+main {
+  max-width: 70%;
+  margin: 0 auto;
+}
+
+.nav-link {
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: #0858F0;
+}
+
+.nav-link:hover {
+  background-color: #000000;
+  color: rgb(17, 197, 170);
+}
+
+.footer-links {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-links li {
+  display: inline-block;
+  margin-right: 1rem;
+}
+
+.footer {
+  background-color: aqua;
+  padding: 1rem 0;
+}
+
+.footer a {
+  padding: 15px;
+  color: black;
+  font-size: 2rem;
+}
+
+.round-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+.rounded-circle-container {
+  max-width: 150px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 16px;
+  padding: 50px;
+}
+
+.rounded-circle-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+
+.button2 {
+  padding: 0.5rem;
+  color: rgb(255, 255, 255);
+  background-color: #0858F0;
+  width: 100%; 
+  margin: 0 auto;
+  font-size: 1.5em;
+}
+
+.button2:hover {
+  background-color: #000000;
+  color: rgb(17, 197, 170);
+}
